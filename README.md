@@ -59,3 +59,13 @@ The resulting portfolios are then evaluated through historical backtesting.
 ### Liquidity
 
 `0.7*Z(log(20D ADV)) + 0.3*Z(log(60D ADV))`
+
+
+# Others
+> **Backtesting Data Limitation**
+>
+> Due to limited access to sufficiently long historical periods of company financial statement data, we had to shorten the backtesting period. In addition, some financial statement data used in the backtest had not yet been publicly available at the corresponding historical dates. This introduces a degree of look-ahead bias and systematic error into the backtest, but it was a necessary compromise given the limitations of our data sources.
+>
+> If you have access to a reliable source of sufficiently long-term historical financial statement data, please feel free to share it. We would be very happy to exchange ideas and discuss it further. Thank you very much.
+>
+> **Disclaimer:** This strategy is intended solely for academic research and discussion and does not constitute investment advice.
