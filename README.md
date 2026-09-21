@@ -20,7 +20,7 @@ Rather than relying on a single indicator or discretionary stock-picking approac
 
 ## Objective
 
-To construct portfolios from Nasdaq-100 constituents by using muti-factor model [ with backtest ]
+To construct portfolios from Nasdaq-100 constituents by using multi-factor model (with backtest)
 
 ## Stock Selection
 
@@ -34,7 +34,7 @@ The model ranks all eligible constituents and selects the Top 25 stocks based on
 
 The resulting portfolios are then evaluated through historical backtesting.
 
-## About our Muti-factor
+## About our Multi-factor 
 
 ### Momentum
 
