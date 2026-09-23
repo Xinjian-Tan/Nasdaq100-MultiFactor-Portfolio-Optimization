@@ -66,6 +66,11 @@ The resulting portfolios are then evaluated through historical backtesting.
 >
 > Due to limited access to sufficiently long historical periods of company financial statement data, we had to shorten the backtesting period. In addition, some financial statement data used in the backtest had not yet been publicly available at the corresponding historical dates. This introduces a degree of look-ahead bias and systematic error into the backtest, but it was a necessary compromise given the limitations of our data sources.
 >
+> The project has established a historical monthly universe framework. However, due to limitations in the availability and historical coverage of the underlying data, we determined that implementing monthly rebalancing would provide limited additional value at this stage. Therefore, monthly rebalancing has not yet been incorporated into the current backtesting framework.
+
+>
 > If you have access to a reliable source of sufficiently long-term historical financial statement data, please feel free to share it. We would be very happy to exchange ideas and discuss it further. Thank you very much.
 >
-> **Disclaimer:** This strategy is intended solely for academic research and discussion and does not constitute investment advice.
+> **Disclaimer:**
+>
+>This strategy is intended solely for academic research and discussion and does not constitute investment advice.
